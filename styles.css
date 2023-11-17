@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero, footer{
+    background-color: #1F2937;
+}
+
+.hero{
+    padding: 20px 0 100px 0;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.nav-bar header h3{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}
+
+.nav-bar .links{
+    list-style-type: none;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 18px;
+}
+
+.flex-hero article h1{
+    color: #F9FAF8;
+    font-size: 48px;
+}
+
+.flex-hero article p{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 10px;
+}
+
+.flex-hero{
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.flex-hero article{
+    width: 300px;
+}
+
+.flex-hero button{
+    background-color: #3882F6;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 0;
+}
+
+.flex-hero .box{
+    background-color: gray;
+    padding: 50px;
+}
+
+.box .placeholder{
+    color: #E5E7EB;
+}
+
+.info{
+    padding: 20px 0 100px 0;
+}
+
+.info header{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+
+.info-container .img-box{
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882F6;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.info-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.info-container article{
+    width: 100px;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    text-align: center;
+    padding: 50px 100px;
+}
+
+.context em{
+   color: #1F2937;
+   font-size: 36px;
+   display: inline-block; 
+   width: 60%;
+}
+
+.sign-up .container{
+    background-color: #3882F6;
+    color: white;
+    padding: 50px;
+    border-radius: 5px;
+    display: flex;
+    gap: 50px;
+}
+
+.sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+.sign-up button{
+    outline: none;
+    background-color: #3882F6;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+.sign-up .container .text p{
+    color: #E5E7EB;
+}
+
+footer{
+    padding: 20px 50px;
+    text-align: center;
+    color: white;
+}
