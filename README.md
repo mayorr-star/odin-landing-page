@@ -1,4 +1,11 @@
-# odin-landing-page
+
+# Project Title
+    Odin landing page
+
+# Description
+
 This is a simple landing page
-# skills
-Used flexbox to layout the elements on the page
+
+# Built With
+    HTML
+    CSS (flexbox)
